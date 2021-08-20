@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Baazigar",
+    "year": "1993",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Musical"
+    ],
+    "duration": "PT175M",
+    "imdbRating": 7.8,
+    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc3OTE1MDAxNV5BMl5BanBnXkFtZTgwNjM1NDk5NTE@._V1_SY250_CR0,0,187,250_AL_.jpg"
+  },
+  {
+    "title": "Jodhaa Akbar",
+    "year": "2008",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Biography"
+    ],
+    "duration": "PT213M",
+    "imdbRating": 7.6,
+    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1ODQ2MDIxMl5BMl5BanBnXkFtZTcwNTc3Mzk1MQ@@._V1_SY361_SX250_AL_.jpg"
+  },
+  {
+    "title": "Wake Up Sid",
+    "year": "2009",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "duration": "PT138M",
+    "imdbRating": 7.6,
+    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg2NTk2MjU5NV5BMl5BanBnXkFtZTcwNTY0Nzg4Mg@@._V1_SY489_SX324_AL_.jpg"
+  },
+  {
+    "title": "Saala Khadoos",
+    "year": "2016",
+    "genres": [
+      "Action",
+      "Drama",
+      "Sport"
+    ],
+    "duration": "PT109M",
+    "imdbRating": 7.7,
+    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BM2Q5YmM3YjMtOTE2Mi00MDg5LThkZjctYzUxOWU2ZTM1ZDk4XkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SY334_SX250_AL_.jpg"
+  },
+  {
+    "title": "Qayamat Se Qayamat Tak",
+    "year": "1988",
+    "genres": [
+      "Action",
+      "Drama",
+      "Musical"
+    ],
+    "duration": "PT162M",
+    "imdbRating": 7.6,
+    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4MDQyMDUzOF5BMl5BanBnXkFtZTcwMjUyNTAzMQ@@._V1_SY250_SX168_AL_.jpg"
+  },
+  {
+    "title": "Delhi Belly",
+    "year": "2011",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "duration": "PT103M",
+    "imdbRating": 7.6,
+    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTI3ODQwNDAzN15BMl5BanBnXkFtZTcwMDg5NDExNg@@._V1_SY360_SX250_AL_.jpg"
+  },
+  {
+    "title": "Highway",
+    "year": "2014",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Romance"
+    ],
+    "duration": "PT133M",
+    "imdbRating": 7.6,
+    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE5NjkyNTczM15BMl5BanBnXkFtZTgwNDg4MzE5MDE@._V1_SY500_CR0,0,344,500_AL_.jpg"
+  },
+  {
+    "title": "Aankhen",
+    "year": "2002",
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Crime"
+    ],
+    "duration": "PT165M",
+    "imdbRating": 7.6,
+    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYmE2MTNkYTctN2FjYS00Zjc2LWFiOGQtNzFmZmE4YzM2NmM4XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY500_SX345_AL_.jpg"
+  }
+]
