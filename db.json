@@ -7,7 +7,7 @@
       "Drama",
       "Musical"
     ],
-    "duration": "PT175M",
+    "duration": "2hr 55 min",
     "imdbRating": 7.8,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc3OTE1MDAxNV5BMl5BanBnXkFtZTgwNjM1NDk5NTE@._V1_SY250_CR0,0,187,250_AL_.jpg"
   },
@@ -19,7 +19,7 @@
       "Adventure",
       "Biography"
     ],
-    "duration": "PT213M",
+    "duration": "3hr 30 min",
     "imdbRating": 7.6,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1ODQ2MDIxMl5BMl5BanBnXkFtZTcwNTc3Mzk1MQ@@._V1_SY361_SX250_AL_.jpg"
   },
@@ -31,7 +31,7 @@
       "Drama",
       "Romance"
     ],
-    "duration": "PT138M",
+    "duration": "2hr 18 min",
     "imdbRating": 7.6,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg2NTk2MjU5NV5BMl5BanBnXkFtZTcwNTY0Nzg4Mg@@._V1_SY489_SX324_AL_.jpg"
   },
@@ -43,7 +43,7 @@
       "Drama",
       "Sport"
     ],
-    "duration": "PT109M",
+    "duration": "1hr 05 min",
     "imdbRating": 7.7,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BM2Q5YmM3YjMtOTE2Mi00MDg5LThkZjctYzUxOWU2ZTM1ZDk4XkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_SY334_SX250_AL_.jpg"
   },
@@ -55,7 +55,7 @@
       "Drama",
       "Musical"
     ],
-    "duration": "PT162M",
+    "duration": "1hr 40 min",
     "imdbRating": 7.6,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4MDQyMDUzOF5BMl5BanBnXkFtZTcwMjUyNTAzMQ@@._V1_SY250_SX168_AL_.jpg"
   },
@@ -67,7 +67,7 @@
       "Crime",
       "Drama"
     ],
-    "duration": "PT103M",
+    "duration": "1hr 20 min",
     "imdbRating": 7.6,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTI3ODQwNDAzN15BMl5BanBnXkFtZTcwMDg5NDExNg@@._V1_SY360_SX250_AL_.jpg"
   },
@@ -79,7 +79,7 @@
       "Drama",
       "Romance"
     ],
-    "duration": "PT133M",
+    "duration": "2hr 05min",
     "imdbRating": 7.6,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE5NjkyNTczM15BMl5BanBnXkFtZTgwNDg4MzE5MDE@._V1_SY500_CR0,0,344,500_AL_.jpg"
   },
@@ -91,8 +91,20 @@
       "Thriller",
       "Crime"
     ],
-    "duration": "PT165M",
+    "duration": "2hr 15 min",
     "imdbRating": 7.6,
     "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYmE2MTNkYTctN2FjYS00Zjc2LWFiOGQtNzFmZmE4YzM2NmM4XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY500_SX345_AL_.jpg"
-  }
+  },
+      {
+        "title": "Mujhse Shaadi Karogi",
+        "year": "2004",
+        "genres": [
+            "Comedy",
+            "Romance"
+        ],
+
+        "duration": "2hr 40 min",
+        "imdbRating": 6.8,
+        "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BYTg3N2YyZDAtY2QyNy00MDYzLTliYzctZTVkZTE2NzY0NDU4XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SY500_CR0,0,347,500_AL_.jpg"
+    }
 ]
