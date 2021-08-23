@@ -1,6 +1,16 @@
-[
+[ {
+    "title": "Damini",
+    "year": "1993",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "duration": "2hr 56 min",
+    "imdbRating": 8.8,
+    "posterurl": "https://en.wikipedia.org/wiki/Damini#/media/File:Damini.jpg"
+  },
   {
-    "title": "Bzigar",
+    "title": "Baazigar",
     "year": "1993",
     "genres": [
       "Crime",
