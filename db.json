@@ -1,4 +1,16 @@
 [ {
+    "title": "Dilwale",
+    "year": "1994",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Music"
+    ],
+    "duration": "3hr",
+    "imdbRating": 8,
+    "posterurl": "https://upload.wikimedia.org/wikipedia/en/4/42/Dilwale_1994_poster.jpg"
+  },
+ {
     "title": "Damini",
     "year": "1993",
     "genres": [
