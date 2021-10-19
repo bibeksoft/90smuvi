@@ -36,7 +36,7 @@
       "name": "Message binding",
       "dragHtml": "<img src=\"http://localhost/Muvi-New-VD/libs/builder/icons/product.png\">",
       "image": "http://localhost/Muvi-New-VD/media/message.png",
-      "html": "<section id='msgapp'><span>{{msg}}</span></section><script>const vm = {data() {return {msg:'This should be red.'}},}\nVue.createApp(vm).mount('#msgapp')</script>",
+      "html": "<section id='msgapp'><span style='color:white'>{{msg}}</span></section><script>const vm = {data() {return {msg:'This should be red.'}},}\nVue.createApp(vm).mount('#msgapp')</script>",
       "type": "Message binding"
     }
   }
