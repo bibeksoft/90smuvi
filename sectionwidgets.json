@@ -39,6 +39,16 @@
       "html": "<section class='product-listing'> <div class='container-fluid'> <div class='row'> <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'> <div class='contect-listing'> <h2 class='sub-heading white-color'>Related Movies</h2> <div class='owl-product owl-carousel owl-theme' > <div class='item' v-for='itemData of relatedContentList'> <div class='picture'><img :src='itemData.content_list[0].posters.website[0].file_url' alt='The Last Dance' /></div> <div class='data'> <a href='javascript:void(0);'> <span>{{itemData.content_list[0].content_name}}</span> </a> <p>Action | 2h 43m </p> </div> </div> </div> </div> </div> </div> </div> </section>",
       "type": "Related Content"
     }
+  },
+   {
+    "id": "Cast Crew",
+    "templateDetails": {
+      "name": "Cast Crew",
+      "dragHtml": "<img src=\"http://localhost/Muvi-New-VD/libs/builder/icons/product.png\">",
+      "image": "http://localhost/Muvi-New-VD/media/message.png",
+      "html": "<section class='cast' v-if='contentDetails.cast_details !== null'> <div class='container-fluid'> <div class='row'> <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'> <h2 class='sub-heading white-color'>Cast</h2> </div> <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-lg-flex d-xl-flex flex-wrap'> <!-- loop Div Start Here --> <div class='tiles' v-for='data in contentDetails.cast_details'> <div class='picture'> <img v-if='data.cast_image_details !== null && data.cast_image_details.file_url !=='' || null' :src='data.cast_image_details.file_url' alt='Pedro Pascal' class='w-100'> <img v-if='data.cast_image_details === null || data.cast_image_details.file_url ==='' || null' :src='noDefaultImage' alt='Pedro Pascal' class='w-100'></div> <div class='data'> <a href='javascript:void(0);'> <span>{{data.cast_name}}</span> </a> </div> </div> </div> </div> </div> </section>",
+      "type": "Cast Crew"
+    }
   }     
   ]
 }
