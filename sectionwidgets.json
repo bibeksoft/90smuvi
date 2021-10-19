@@ -26,7 +26,7 @@
           "name": "Top Album", 
           "dragHtml": "<img src=\"http://localhost/Muvi-New-VD/libs/builder/icons/product.png\">",
           "image": "http://localhost/Muvi-New-VD/media/Album.png", 
-          "html":"<section id=\"msgapp\">\n<span>{{msg}}</span>\n\n</section>\n<script>\n const vm = {\n    data() {\n            return {\n                msg:\'This should be red.\'\n            }\n        },\n }\nVue.createApp(vm).mount(\"#msgapp\")\n</script>",
+          "html": "<muvivd name='album' id='album'><div class='container-fluid'><h2 class='sub-heading'>International Top Hits</h2><div class='column'><div class='card' v-for='items in albumdetails' :key='items.id'> <img class='card-img-top' :src='items.imageurl'><div class='card-body'><h5 class='card-title'>{{items.title}}</h5><p class='card-text'>{{items.artist}}</p><p class='card-text'><small class='text-muted'>{{items.releaseDate}}</small></p></div></div></div></muvivd><script>const album = { data() { return { albumdetails: [], isload: false } }, mounted() { axios.get('https://raw.githubusercontent.com/bibeksoft/90smuvi/main/album.json').then(response => { this.albumdetails = response.data;this.isload = true })}}\nVue.createApp(album).mount('#album')</script><style>.card-img, .card-img-top, .card-img-bottom {max-width: 150px !important;border-radius:8px;}@media screen and (max-width: 600px) { .column { width: 100%; display: block; margin-bottom: 20px; }}.card { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); padding: 16px; text-align: center; background-color: #f1f1f1;}.column {float: left;width:20%;padding: 0 10px;}</style>",
           "type": "Top Album"
         }
       },
@@ -36,7 +36,7 @@
       "name": "Message binding",
       "dragHtml": "<img src=\"http://localhost/Muvi-New-VD/libs/builder/icons/product.png\">",
       "image": "http://localhost/Muvi-New-VD/media/message.png",
-      "html": "<section id=\"msgapp\">\n<span>{{msg}}</span>\n\n</section>\n<script>\n const vm = {\n    data() {\n            return {\n                msg:\'This should be red.\'\n            }\n        },\n }\nVue.createApp(vm).mount(\"#msgapp\")\n</script>",
+      "html": "<section id='msgapp'><span>{{msg}}</span></section><script>const vm = {data() {return {msg:'This should be red.'}},}\nVue.createApp(vm).mount(\'#msgapp\')</script>",
       "type": "Message binding"
     }
   }
