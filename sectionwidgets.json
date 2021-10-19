@@ -35,7 +35,7 @@
     "templateDetails": {
       "name": "Message binding",
       "dragHtml": "<img src=\"http://localhost/Muvi-New-VD/libs/builder/icons/product.png\">",
-      "image": "image": "http://localhost/Muvi-New-VD/media/message.png",
+      "image": "http://localhost/Muvi-New-VD/media/message.png",
       "html": "<section id=\"app\">\n<span v-html=\"msg\"></span>\n\n</section>\n<script>\n const vm = {\n data() {\n return {\n                msg:<span style=\"color: red\">This should be red.</span>\n            }\n }\n }\nVue.createApp(vm).mount(\"#app\")\n</script>",
       "type": "Message binding"
     }
