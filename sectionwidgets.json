@@ -30,25 +30,25 @@
           "type": "Top Album"
         }
       },
-     {
-    "id": "Related Content",
-    "templateDetails": {
-      "name": "Related Content",
-      "dragHtml": "<img src=\"http://localhost/Muvi-New-VD/libs/builder/icons/product.png\">",
-      "image": "http://localhost/Muvi-New-VD/media/message.png",
-      "html": "<section class='product-listing'> <div class='container-fluid'> <div class='row'> <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'> <div class='contect-listing'> <h2 class='sub-heading white-color'>Related Movies</h2> <div class='owl-product owl-carousel owl-theme' > <div class='item' v-for='itemData of relatedContentList'> <div class='picture'><img :src='itemData.content_list[0].posters.website[0].file_url' alt='The Last Dance' /></div> <div class='data'> <a href='javascript:void(0);'> <span>{{itemData.content_list[0].content_name}}</span> </a> <p>Action | 2h 43m </p> </div> </div> </div> </div> </div> </div> </div> </section>",
-      "type": "Related Content"
-    }
-  },
-   {
-    "id": "Cast Crew",
-    "templateDetails": {
-      "name": "Cast Crew",
-      "dragHtml": "<img src=\"http://localhost/Muvi-New-VD/libs/builder/icons/product.png\">",
-      "image": "http://localhost/Muvi-New-VD/media/message.png",
-      "html": "<section class='cast' v-if='contentDetails.cast_details !== null'> <div class='container-fluid'> <div class='row'> <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'> <h2 class='sub-heading white-color'>Cast</h2> </div> <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-lg-flex d-xl-flex flex-wrap'> <!-- loop Div Start Here --> <div class='tiles' v-for='data in contentDetails.cast_details'> <div class='picture'> <img v-if='data.cast_image_details !== null && data.cast_image_details.file_url !=='' || null' :src='data.cast_image_details.file_url' alt='Pedro Pascal' class='w-100'> <img v-if='data.cast_image_details === null || data.cast_image_details.file_url ==='' || null' :src='noDefaultImage' alt='Pedro Pascal' class='w-100'></div> <div class='data'> <a href='javascript:void(0);'> <span>{{data.cast_name}}</span> </a> </div> </div> </div> </div> </div> </section><script  id='Productlistnew' src='product-details.js' type='module'></script><script src='../../js/webservices.js' type='module'></script>",
-      "type": "Cast Crew"
-    }
-  }     
-  ]
+        {
+        "id": "Footer",
+        "templateDetails": {
+          "name": "Footer",
+          "dragHtml": "<img src=\"http://localhost/Muvi-New-VD/libs/builder/icons/product.png\">",
+          "image": "http://localhost/Muvi-New-VD/media/footer.png",
+          "html": "<footer>\n  <section class=\"footer\">\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n          <div class=\"col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4\">\n            <div class=\"short-description\">\n              <img icon-attr=\"logo\" href=\"http://localhost/Muvi-New-VD/pages/home/index.php\" src=\"https://d3jc3vjm4t7lis.cloudfront.net/undefined/undefined/il/94AF7CB1CEBF4A9C9DC25DE597ED4DB4/headerlogo-1599539982798.png\" alt=\"Muvi\" />\n              <p class=\"content-data\">There are many variations of passages of Lorem Ipsum available, but the majority have \n                suffered alteration in some form, by injected humour, or randomised words</p>\n            </div>\n          </div>\n          <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8\">\n            <div class=\"row\">\n              <div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3\">\n                  <div class=\"boxes\">\n                    <ul>\n                      <li><a href=\"../../pages/about-us/index.php\">About Us</a></li>\n                    </ul>\n                  </div>\n              </div>\n              <div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3\">\n                <div class=\"boxes\">\n                  <ul>\n                    <li><a href=\"../../pages/contact-us/index.php\">Contact Us</a></li>\n                  </ul>\n                </div>\n            </div>\n            <div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3\">\n              <div class=\"boxes\">\n                <ul>\n                  <li><a href=\"../../pages/terms-condition/index.php\">Terms And Conditions</a></li>\n                </ul>\n              </div>\n          </div>\n          <div class=\"col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3\">\n            <div class=\"boxes\">\n              <ul>\n                <li><a href=\"../../pages/login/index.php\">Log In</a></li>\n              </ul>\n            </div>\n        </div>\n      </div>\n  </section>\n  <section class=\"copyright\">\n      <div class=\"container-fluid\">\n        <div class=\"row\">\n          <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6\">\n            <ul>\n              <li><a href=\"https://facebook.com\" target=\"_blank\"><i class=\"fa fa-facebook-f\"></i></a></li>\n              <li><a href=\"https://www.twitter.com\" target=\"_blank\"><i class=\"fa fa-twitter\"></i></a></li>\n              <li><a href=\"https://www.instagram.com\" target=\"_blank\"><i class=\"fa fa-instagram\"></i></a></li>\n              <li><a href=\"https://www.youtube.com\" target=\"_blank\"><i class=\"fa fa-youtube\"></i></a></li>\n            </ul>\n          </div>\n          <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6\">\n            <p>&copy;2021 Muvi Entertainment Ltd.</p>\n          </div>\n        </div>\n      </div>\n    </section>\n</footer>",
+          "type": "Footer"
+        }
+      },
+      {
+        "id": "Cast Crew",
+        "templateDetails": {
+          "name": "Cast Crew",
+          "dragHtml": "<img src=\"http://localhost/Muvi-New-VD/libs/builder/icons/product.png\">",
+          "image": "http://localhost/Muvi-New-VD/media/cast-and-crew.jpeg",
+          "html": "<section class=\"cast\">\n    <div class=\"container-fluid\">\n      <div class=\"row\">\n        <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12\"> \n          <h2 class=\"sub-heading white-color\">Cast</h2>\n        </div>\n        <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-lg-flex d-xl-flex flex-wrap\">               \n          <!-- loop Div Start Here -->\n         <div class=\"tiles\">\n            <div class=\"picture\">\n              <img src=\"http://localhost/Muvi-New-VD/media/cast-and-crew.jpeg\" alt=\"cast crew\" class=\"w-100\">\n              </div>\n              <div class=\"data\">\n              <a href=\"javascript:void(0);\">\n                <span>Johon Doe</span>                  \n              </a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+          "type": "Cast Crew"
+          }
+        }
+    ]
 }
